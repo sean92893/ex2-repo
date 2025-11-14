@@ -34,3 +34,4 @@ git push -u origin main
 git pull 
 git commit -m "commit"
 git pull
+# https://github.com/sean92893/ex2-repo/tree/main
