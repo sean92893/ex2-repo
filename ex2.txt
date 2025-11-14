@@ -1,0 +1,36 @@
+git config --global user.name "Sean Moran"
+git config --global user.email "x02008685@mytudublin.ie"
+git config --global core.autocrlf flase 
+git init
+git config --global core.autocrlf false
+git init
+git status
+git branch -m master main
+git status
+git commit -m "Initial commit with appv1.py"
+git .ignore info.md
+git --help
+git --help ignore
+.gitignore info.md
+git --help .gitignore
+git add .gitignore info.md
+git add appv1.py
+git commit -m "Second commit appv1.py"
+git add info.md
+git commit -m "Initial commit with info.md"
+git add .gitignore
+git commit -m "Initial commit with .gitignore"
+git branch feature1-shop
+git switch feature1-shop
+git add appv1.py
+git commit -m "Second commit appv1.py"
+git switch main
+git add appv1.py
+git commit -m "Main branch change commit"
+git merge feature1-shop
+git add README.md
+git remote add origin https://github.com/sean92893/ex2-repo.git
+git push -u origin main
+git pull 
+git commit -m "commit"
+git pull
